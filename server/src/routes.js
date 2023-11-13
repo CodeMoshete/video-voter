@@ -9,9 +9,9 @@ const router = express.Router();
 
 router.route('/logVote')
   .post(async (req, res) => {
-    debug(`Logging Feeding!\n${util.inspect(req.body)}`);
-    const { userName, clipName, vote } = req.body;
-    votingManager.logVote(userName, clipName, vote);
+    debug(`Logging vote!\n${util.inspect(req.body)}`);
+    const { userName, videoName, vote } = req.body;
+    votingManager.logVote(userName, videoName, vote);
     res.sendStatus(200);
   });
 

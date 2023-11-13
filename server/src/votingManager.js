@@ -22,7 +22,7 @@ function checkDataPathExists() {
 exports.logVote = function submitVote(userName, clipName, vote) {
   debug(`Log vote for ${clipName}: ${vote}`);
   const numericalAmount = parseFloat(vote);
-  if (numericalAmount.isNaN() || numericalAmount <= 0) {
+  if (Number.isNaN(numericalAmount) || numericalAmount <= 0) {
     debug(chalk.red(`[ERROR]: Invalid vote detected: ${vote}.`));
     return;
   }
@@ -63,24 +63,17 @@ exports.logVote = function submitVote(userName, clipName, vote) {
     clipVoteData.votes.push(userVote);
   }
 
-  // messagesContent[dateTime.toLocaleTimeString()] = { amount: numericalAmount };
+  let overallScore = 0;
+  const numVotes = clipVoteData.votes.length;
+  for (let i = 0; i < numVotes; i += 1) {
+    overallScore += clipVoteData.votes[i].vote;
+  }
+  overallScore /= numVotes;
+  clipVoteData.overallScore = overallScore;
+  debug(`New average score for ${clipName}: ${overallScore}`);
 
   fs.writeFileSync(feedFilePath, JSON.stringify(messagesContent, null, 2));
 };
-
-// exports.removeEntry = function approveEntry(timestamp) {
-//   const dateTime = new Date((new Date()).getTime());
-//   const dateStr = dateTime.toLocaleDateString().split('/').join('-');
-//   const feedFileName = `feeding-${dateStr}.json`;
-//   const feedFilePath = path.join(dataPath, feedFileName);
-
-//   let feedingContent = {};
-//   if (fs.existsSync(feedFilePath)) {
-//     feedingContent = JSON.parse(fs.readFileSync(feedFilePath));
-//     delete feedingContent[timestamp];
-//     fs.writeFileSync(feedFilePath, JSON.stringify(feedingContent, null, 2));
-//   }
-// };
 
 exports.getVideoManifest = function getVideoManifest() {
   checkDataPathExists();

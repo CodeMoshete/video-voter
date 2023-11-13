@@ -31,22 +31,18 @@ exports.showDashboard = async function showDashboard(serverIp, clientIp) {
   let currentVideoContent = '';
   if (currentVideoFileName !== undefined) {
     // Populate video title and voting buttons.
-    currentVideoContent += '<span class="border2">Current video:</span><br>';
-    currentVideoContent += `<span id="videoName" class="border3">${currentVideoFileName}</span><br></br></br>`;
+    currentVideoContent += '<span class="border">Current video:</span><br>';
+    currentVideoContent += `<span id="videoName" class="border2">${currentVideoFileName}</span><br></br></br>`;
 
     currentVideoContent += '  <div id="inputContainer" class="inputContainer">';
     currentVideoContent += '    <div>';
     currentVideoContent += '      <span class="border2">Your Vote:</span></br>';
-    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">1</button>';
-    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">2</button>';
-    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">3</button>';
-    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">4</button>';
-    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">5</button>';
-    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">6</button>';
-    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">7</button>';
-    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">8</button>';
-    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">9</button>';
-    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">10</button>';
+    currentVideoContent += '      <span class="border3">(1: not a botch, 5: horrible botch)</span></br>';
+    currentVideoContent += '      <button class="voteBtn" onclick="submitVote(1)">1</button>';
+    currentVideoContent += '      <button class="voteBtn" onclick="submitVote(2)">2</button>';
+    currentVideoContent += '      <button class="voteBtn" onclick="submitVote(3)">3</button>';
+    currentVideoContent += '      <button class="voteBtn" onclick="submitVote(4)">4</button>';
+    currentVideoContent += '      <button class="voteBtn" onclick="submitVote(5)">5</button>';
     currentVideoContent += '    </div>';
     currentVideoContent += '  </div>';
   } else {
