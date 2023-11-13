@@ -7,11 +7,11 @@ const adminDashboard = require('./adminDashboard');
 
 const router = express.Router();
 
-router.route('/logFeeding')
+router.route('/logVote')
   .post(async (req, res) => {
     debug(`Logging Feeding!\n${util.inspect(req.body)}`);
-    const { amount } = req.body;
-    votingManager.logFeeding(amount);
+    const { userName, clipName, vote } = req.body;
+    votingManager.logVote(userName, clipName, vote);
     res.sendStatus(200);
   });
 
@@ -20,6 +20,42 @@ router.route('/removeEntry')
     debug(`Removing voting entry!\n${util.inspect(req.body)}`);
     const { timestamp } = req.body;
     votingManager.removeEntry(timestamp);
+    res.sendStatus(200);
+  });
+
+router.route('/generateManifest')
+  .get(async (req, res) => {
+    debug('Generating manifest');
+    votingManager.generateManifest();
+    res.sendStatus(200);
+  });
+
+router.route('/getCurrentVideoName')
+  .get((req, res) => {
+    debug('Getting current video');
+    const currentVideo = votingManager.getCurrentVideoName();
+    res.send(currentVideo);
+  });
+
+router.route('/setCurrentVideo')
+  .get((req, res) => {
+    debug('Getting current video');
+    const newVideo = req.query.video;
+    votingManager.getCurrentVideoName(newVideo);
+    res.sendStatus(200);
+  });
+
+router.route('/goToNextVideo')
+  .get((req, res) => {
+    debug('Queue up next video');
+    votingManager.goToNextVideo();
+    res.sendStatus(200);
+  });
+
+router.route('/goToPrevVideo')
+  .get((req, res) => {
+    debug('Queue up previous video');
+    votingManager.goToPrevVideo();
     res.sendStatus(200);
   });
 

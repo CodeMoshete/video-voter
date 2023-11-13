@@ -2,15 +2,10 @@ const debug = require('debug')('video-voting-server');
 const path = require('path');
 const fs = require('fs');
 
-function generateEntry(time, entry) {
-  let html = '<div class="entryContainer">';
-  html += `<p class="entryName"><b>${time}: ${entry.amount} oz.</b></p>`;
-  html += '</div></br></br>';
-  return html;
-}
+const votingManager = require('./votingManager');
 
 exports.showDashboard = async function showDashboard(serverIp, clientIp) {
-  debug('Show Dashboard');
+  debug(`Show Dashboard\nServer IP:${serverIp}`);
   const htmlPath =
     path.join(global.appRoot, 'src', 'dashboard_content', 'dashboard-content.html');
   let html = fs.readFileSync(htmlPath).toString();
@@ -24,36 +19,42 @@ exports.showDashboard = async function showDashboard(serverIp, clientIp) {
     path.join(global.appRoot, 'src', 'dashboard_content', 'dashboard-scripts.js');
   let scriptsContent = fs.readFileSync(scriptsPath).toString();
   scriptsContent = scriptsContent.split('/*SERVER-ADDRESS*/').join(serverIp);
-  scriptsContent = scriptsContent.split('/*CLIENT-ADDRESS*/').join(clientIp);
+  scriptsContent = scriptsContent.split('/*CLIENT-NAME*/').join(clientIp);
   html = html.split('/*SCRIPTS-CONTENT*/').join(scriptsContent);
 
-  const dateTime = new Date((new Date()).getTime());
-  const dateStr = dateTime.toLocaleDateString().split('/').join('-');
-  const feedFileName = `feeding-${dateStr}.json`;
-  const dataPath = path.join(global.appRoot, 'voting_data');
-  const feedFilePath = path.join(dataPath, feedFileName);
+  // const currentVideoFileName = 'current_video.json';
+  // const dataPath = path.join(global.appRoot, 'voting_data');
+  // const currentVideoFilePath = path.join(dataPath, currentVideoFileName);
 
-  let entryContent = '';
-  let entriesContent = {};
-  if (fs.existsSync(feedFilePath)) {
-    entriesContent = JSON.parse(fs.readFileSync(feedFilePath));
+  const currentVideoFileName = votingManager.getCurrentVideoName();
+
+  let currentVideoContent = '';
+  if (currentVideoFileName !== undefined) {
+    // Populate video title and voting buttons.
+    currentVideoContent += '<span class="border2">Current video:</span><br>';
+    currentVideoContent += `<span id="videoName" class="border3">${currentVideoFileName}</span><br></br></br>`;
+
+    currentVideoContent += '  <div id="inputContainer" class="inputContainer">';
+    currentVideoContent += '    <div>';
+    currentVideoContent += '      <span class="border2">Your Vote:</span></br>';
+    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">1</button>';
+    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">2</button>';
+    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">3</button>';
+    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">4</button>';
+    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">5</button>';
+    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">6</button>';
+    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">7</button>';
+    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">8</button>';
+    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">9</button>';
+    currentVideoContent += '      <button class="voteBtn" onclick="submitGuestbookEntry()">10</button>';
+    currentVideoContent += '    </div>';
+    currentVideoContent += '  </div>';
+  } else {
+    // Populate "Please Wait" text.
+    currentVideoContent += '<span class="border2">Please Wait! Voting will begin soon!</span><br>';
   }
 
-  const allEntriesKeys = Object.keys(entriesContent);
-  const numKeys = allEntriesKeys.length;
-  const numEntiesToDisplay = Math.min(allEntriesKeys.length, 10);
-  let amountFed = 0;
-  for (let i = 0; i < numEntiesToDisplay; i += 1) {
-    const feedingTime = allEntriesKeys[numKeys - 1 - i]; // Show in reverse...
-    const feedingAmt = entriesContent[feedingTime];
-    amountFed += entriesContent[feedingTime].amount;
-    entryContent += generateEntry(feedingTime, feedingAmt);
-  }
-
-  const amountFedContent = `CURRENT AMOUNT FED TODAY: ${amountFed} oz.`;
-  html = html.split('/*TODAYS-DATE*/').join(dateTime.toLocaleDateString());
-  html = html.split('/*AMOUNT-FED*/').join(amountFedContent);
-  html = html.split('/*ENTRIES-CONTENT*/').join(entryContent);
+  html = html.split('/*CURRENT-VIDEO-CONTENT*/').join(currentVideoContent);
 
   return html;
 };
