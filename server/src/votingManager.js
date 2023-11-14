@@ -133,9 +133,7 @@ exports.generateManifest = async function generateManifest() {
 
 exports.getCurrentVideoName = function getCurrentVideoName() {
   checkDataPathExists();
-  debug('TEST');
   if (fs.existsSync(currentVideoFilePath)) {
-    debug('current video path exists');
     const currentVideo = JSON.parse(fs.readFileSync(currentVideoFilePath)).name;
     return currentVideo;
   }

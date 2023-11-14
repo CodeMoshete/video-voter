@@ -12,7 +12,8 @@ exports.showDashboard = async function showDashboard(serverIp, clientIp) {
 
   const stylesPath =
     path.join(global.appRoot, 'src', 'dashboard_content', 'dashboard-styles.css');
-  const stylesContent = fs.readFileSync(stylesPath);
+  let stylesContent = fs.readFileSync(stylesPath);
+  stylesContent = stylesContent.toString().split('/*SERVER-ADDRESS*/').join(serverIp);
   html = html.split('/*STYLES-CONTENT*/').join(stylesContent);
 
   const scriptsPath =
@@ -37,7 +38,8 @@ exports.showDashboard = async function showDashboard(serverIp, clientIp) {
     currentVideoContent += '  <div id="inputContainer" class="inputContainer">';
     currentVideoContent += '    <div>';
     currentVideoContent += '      <span class="border2">Your Vote:</span></br>';
-    currentVideoContent += '      <span class="border3">(1: not a botch, 5: horrible botch)</span></br>';
+    currentVideoContent += '      <span class="border4">1: Not shameful</span></br>';
+    currentVideoContent += '      <span class="border4">5: Extremely shameful</span></br>';
     currentVideoContent += '      <button class="voteBtn" onclick="submitVote(1)">1</button>';
     currentVideoContent += '      <button class="voteBtn" onclick="submitVote(2)">2</button>';
     currentVideoContent += '      <button class="voteBtn" onclick="submitVote(3)">3</button>';

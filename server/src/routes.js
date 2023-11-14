@@ -32,14 +32,12 @@ router.route('/generateManifest')
 
 router.route('/getCurrentVideoName')
   .get((req, res) => {
-    debug('Getting current video');
     const currentVideo = votingManager.getCurrentVideoName();
     res.send(currentVideo);
   });
 
 router.route('/setCurrentVideo')
   .get((req, res) => {
-    debug('Getting current video');
     const newVideo = req.query.video;
     votingManager.getCurrentVideoName(newVideo);
     res.sendStatus(200);
