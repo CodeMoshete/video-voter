@@ -120,6 +120,10 @@ exports.generateManifest = async function generateManifest() {
         return 0;
       });
 
+      for (let i = 0, count = manifest.length; i < count; i += 1) {
+        debug(manifest[i].name);
+      }
+
       // Write the results manifest to file.
       checkDataPathExists();
       fs.writeFileSync(manifestFilePath, JSON.stringify(manifest, null, 2), { recursive: true });
