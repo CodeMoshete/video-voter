@@ -36,11 +36,12 @@ exports.showDashboard = async function showDashboard(serverIp) {
     return 'ERROR: Video manifest is empty!';
   }
 
-  if (currentVideoName === '') {
+  if (currentVideoName === '' || currentVideoName === undefined) {
     currentVideoName = videoManifest[0].name;
     votingManager.setCurrentVideo(currentVideoName);
   }
 
+  debug(`Getting video named ${currentVideoName}`);
   const currentVideoMetadata = votingManager.getVideoManifestEntryByName(currentVideoName);
 
   html = html.split('/*TITLE-CONTENT*/').join(currentVideoMetadata.name);
