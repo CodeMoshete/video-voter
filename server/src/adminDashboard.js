@@ -49,5 +49,13 @@ exports.showDashboard = async function showDashboard(serverIp) {
   const videoContent = currentVideoMetadata.embed;
   html = html.split('/*VIDEO-CONTENT*/').join(videoContent);
 
+  let leaderboardButtonContent = '';
+  if (currentVideoName === videoManifest[videoManifest.length - 1].name) {
+    const url = `http://${serverIp}:8080/video-voting/leaderboard`;
+    leaderboardButtonContent =
+      `<button class="voteBtn"  onclick="window.location.href = '${url}'">Leaderboard</button>`;
+  }
+  html = html.replace('/*LEADERBOARD-CONTENT*/', leaderboardButtonContent);
+
   return html;
 };

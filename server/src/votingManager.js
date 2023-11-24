@@ -75,6 +75,18 @@ exports.logVote = function submitVote(userName, clipName, vote) {
   fs.writeFileSync(feedFilePath, JSON.stringify(messagesContent, null, 2));
 };
 
+exports.getVotes = function getVotes() {
+  checkDataPathExists();
+
+  const feedFilePath = path.join(dataPath, voteFileName);
+  let messagesContent = {};
+  if (fs.existsSync(feedFilePath)) {
+    messagesContent = JSON.parse(fs.readFileSync(feedFilePath));
+  }
+
+  return messagesContent;
+};
+
 exports.getVideoManifest = function getVideoManifest() {
   checkDataPathExists();
   let manifestContent = [];

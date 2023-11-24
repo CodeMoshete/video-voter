@@ -4,6 +4,7 @@ const util = require('util');
 const votingManager = require('./votingManager');
 const votingDashboard = require('./votingDashboard');
 const adminDashboard = require('./adminDashboard');
+const leaderboardDashboard = require('./leaderboardDashboard');
 
 const router = express.Router();
 
@@ -62,6 +63,13 @@ router.route('/')
     const serverIp = req.headers.host.split(':')[0];
     const clientIp = req.connection.remoteAddress;
     const content = await votingDashboard.showDashboard(serverIp, clientIp);
+    res.send(content);
+  });
+
+router.route('/leaderboard')
+  .get(async (req, res) => {
+    const serverIp = req.headers.host.split(':')[0];
+    const content = await leaderboardDashboard.showDashboard(serverIp);
     res.send(content);
   });
 
