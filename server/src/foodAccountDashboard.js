@@ -26,8 +26,8 @@ function getMealsContent(attendeeName) {
     }
 
     optionsContent += '<div class="meal-group">';
-    optionsContent += `<label for="entree_breakfast">${eventName}</label>`;
-    optionsContent += `<input type="text" id="${eventName}" name="entree_breakfast" placeholder="Enter entree for Breakfast" value="${eventContent}">`
+    optionsContent += `<label for="entree">${eventName}</label>`;
+    optionsContent += `<input type="text" id="${eventName}" name="entree_breakfast" placeholder="Enter entrees here" value="${eventContent}">`
     optionsContent += '</div>'
   }
   return optionsContent;
