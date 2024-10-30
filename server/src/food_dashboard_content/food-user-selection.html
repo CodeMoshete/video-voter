@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select or Enter Name</title>
+    <style>/*STYLES-CONTENT*/</style>
+    <script>/*SCRIPTS-CONTENT*/</script>
+</head>
+<body>
+    <div class="container">
+        <h1>Select or Enter Your Name</h1>
+        <!-- Text Entry Field for User Name -->
+        <div class="form-group">
+            <label for="userName">Enter Your Name:</label>
+            <input type="text" id="userName" name="userName" placeholder="Enter your name">
+        </div>
+
+        <!-- Dropdown Field for Selecting from Existing Attendees -->
+        <div class="form-group">
+            <label for="attendeeSelect">Or Select Your Name from the List:</label>
+            <select id="attendeeSelect" name="attendeeSelect">
+                <option value="">-- Select your name --</option>
+                /*OPTIONS-CONTENT*/
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" onclick="onLogin()">Submit</button>
+    </div>
+</body>
+</html>

@@ -4,7 +4,8 @@ const cors = require('cors');
 const debug = require('debug')('video-voting-server');
 const express = require('express');
 const path = require('path');// Load configuration
-const videoRouter = require('./src/routes');
+const videoRouter = require('./src/routes-voting');
+const foodRouter = require('./src/routes-food');
 
 global.appRoot = path.resolve(__dirname);
 
@@ -12,6 +13,7 @@ const app = express();
 app.use(bodyParser.json()); // Set up express to use json parser.
 app.use(cors()); // Enable cross-origin resource sharing (web security thing).// Set up routing.
 app.use('/video-voting', videoRouter);
+app.use('/food', foodRouter);
 app.use(express.static('./static_content'));
 const listenPort = 8080;
 app.listen(listenPort, () => {
