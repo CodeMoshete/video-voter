@@ -15,7 +15,7 @@
         },
         {
           "eventIndex": 2,
-          "content": "Pancakes, English Muffins, Breakfast Sandwichez"
+          "content": "Pancakes, English Muffins, Breakfast Sandwiches"
         }
       ]
     },
@@ -27,6 +27,23 @@
           "content": "Japanese Curry"
         }
       ]
+    },
+    {
+      "name": "Kathryn",
+      "entrees": [
+        {
+          "eventIndex": 0,
+          "content": "Green beans"
+        },
+        {
+          "eventIndex": 1,
+          "content": "Green salad"
+        }
+      ]
+    },
+    {
+      "name": "Stephen 4",
+      "entrees": []
     }
   ]
 }

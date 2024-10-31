@@ -3,19 +3,10 @@ const fs = require('fs');
 const debug = require('debug')('video-voting-server');
 const path = require('path');
 const chalk = require('chalk');
-const axios = require('axios');
 
 const rootFolderPath = path.resolve(`${__dirname}/..`);
 const dataPath = `${rootFolderPath}/food_data`;
 const manifestFilePath = `${dataPath}/food_manifest.json`;
-
-function checkDataPathExists() {
-  // Create the output directory if it doesn't already exist.
-  if (!fs.existsSync(dataPath)) {
-    debug(`Creating missing directory: ${dataPath}`);
-    fs.mkdirSync(dataPath, { recursive: true });
-  }
-}
 
 function loadFoodManifest() {
   debug(chalk.cyan(`Loading manifest file: ${manifestFilePath}`));
@@ -34,14 +25,21 @@ exports.setAttendeeData = function setAttendeeData(attendeeName, entreeData) {
     entrees: entreeData
   };
 
+  let foundExistingAttendee = false;
   for (let i = 0, count = foodManifest.attendees.length; i < count; i += 1) {
-    let attendeeManifestData = foodManifest.attendees[i];
+    const attendeeManifestData = foodManifest.attendees[i];
     // debug(`Compare ${attendeeManifestData.name} to ${attendeeName}`);
     if (attendeeManifestData.name === attendeeName) {
       // debug(`Found ${attendeeName}`);
+      foundExistingAttendee = true;
       foodManifest.attendees[i] = manifestEntry;
       break;
     }
+  }
+
+  if (!foundExistingAttendee) {
+    debug(`Adding new manifest entry for ${attendeeName}`);
+    foodManifest.attendees.push(manifestEntry);
   }
 
   debug(`Manifest data:\n${JSON.stringify(foodManifest, null, 2)}`);

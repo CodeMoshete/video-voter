@@ -35,6 +35,11 @@ h1 {
   color: #8b4513; /* Darker brown for subheadings */
 }
 
+.meal-table h4 {
+  margin-bottom: 10px;
+  color: #8b4513; /* Darker brown for subheadings */
+}
+
 table {
   width: 100%;
   border-collapse: collapse;

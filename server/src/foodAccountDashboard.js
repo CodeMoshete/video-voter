@@ -12,9 +12,9 @@ function getMealsContent(attendeeName) {
     const eventName = attendeeData.eventNames[j];
     let eventContent = '';
     for (let i = 0, count = attendeeData.attendees.length; i < count; i += 1) {
-      const name = attendeeData.attendees[i].name;
+      const { name } = attendeeData.attendees[i];
       if (name === attendeeName) {
-        const entrees = attendeeData.attendees[i].entrees;
+        const { entrees } = attendeeData.attendees[i];
         for (let k = 0, entreeCount = entrees.length; k < entreeCount; k += 1) {
           const entree = entrees[k];
           debug(`Compare ${entree.eventIndex} to ${j}\n${JSON.stringify(entree, null, 2)}`);
@@ -27,8 +27,9 @@ function getMealsContent(attendeeName) {
 
     optionsContent += '<div class="meal-group">';
     optionsContent += `<label for="entree">${eventName}</label>`;
-    optionsContent += `<input type="text" id="${eventName}" name="entree_breakfast" placeholder="Enter entrees here" value="${eventContent}">`
-    optionsContent += '</div>'
+    optionsContent += `<input type="text" id="${eventName}" name="entree_breakfast"`;
+    optionsContent += ` placeholder="Enter entrees here" value="${eventContent}">`;
+    optionsContent += '</div>';
   }
   return optionsContent;
 }
@@ -50,9 +51,9 @@ exports.showDashboard = async function showDashboard(serverIp, clientIp, attende
   let scriptsContent = fs.readFileSync(scriptsPath).toString();
   scriptsContent = scriptsContent.split('/*SERVER-ADDRESS*/').join(serverIp);
   scriptsContent = scriptsContent.split('/*CLIENT-NAME*/').join(clientIp);
-  
+
   const attendeeData = foodManager.getAttendeeData();
-  const eventNames = attendeeData.eventNames;
+  const { eventNames } = attendeeData;
   scriptsContent = scriptsContent.split('/*EVENT-NAMES*/').join(JSON.stringify(eventNames));
 
   html = html.split('/*SCRIPTS-CONTENT*/').join(scriptsContent);
