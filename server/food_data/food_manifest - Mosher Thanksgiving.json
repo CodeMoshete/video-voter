@@ -1,0 +1,49 @@
+{
+  "eventNames": [
+    "Thanksgiving Dinner - 1pm Thursday",
+    "Thanksgiving Supper - 6pm Thursday",
+    "Men's Breakfast - 9am Friday",
+    "Game Night - 6pm Friday"
+  ],
+  "attendees": [
+    {
+      "name": "Ben",
+      "entrees": [
+        {
+          "eventIndex": 0,
+          "content": "Smoked Turkey, Mashed Potatoes"
+        },
+        {
+          "eventIndex": 2,
+          "content": "Pancakes, English Muffins, Breakfast Sandwiches"
+        }
+      ]
+    },
+    {
+      "name": "Ashley",
+      "entrees": [
+        {
+          "eventIndex": 3,
+          "content": "Japanese Curry"
+        }
+      ]
+    },
+    {
+      "name": "Kathryn",
+      "entrees": [
+        {
+          "eventIndex": 0,
+          "content": "Green beans"
+        },
+        {
+          "eventIndex": 1,
+          "content": "Green salad"
+        }
+      ]
+    },
+    {
+      "name": "Stephen 4",
+      "entrees": []
+    }
+  ]
+}
