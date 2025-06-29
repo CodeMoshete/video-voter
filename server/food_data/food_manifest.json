@@ -1,11 +1,16 @@
 {
   "eventNames": [
-    "Bacon Christmas Dinner - 5pm"
+    "Bacon Summer Picnic - 12pm"
   ],
   "attendees": [
     {
       "name": "Ben",
-      "entrees": []
+      "entrees": [
+        {
+          "eventIndex": 0,
+          "content": "Burgers, Brisket?"
+        }
+      ]
     }
   ]
 }
