@@ -20,7 +20,7 @@ exports.showDashboard = async function showDashboard(serverIp, clientIp) {
   let html = fs.readFileSync(htmlPath).toString();
 
   const stylesPath =
-    path.join(global.appRoot, 'src', 'food_dashboard_content', 'food-dashboard-styles-summer.css');
+    path.join(global.appRoot, 'src', 'food_dashboard_content', 'food-dashboard-styles.css');
   let stylesContent = fs.readFileSync(stylesPath);
   stylesContent = stylesContent.toString().split('/*SERVER-ADDRESS*/').join(serverIp);
   html = html.split('/*STYLES-CONTENT*/').join(stylesContent);
