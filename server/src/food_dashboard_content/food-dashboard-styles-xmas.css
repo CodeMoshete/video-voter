@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light snowy blue */
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ff0000; /* Christmas red */
+  }
+
+  h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #990000; /* Christmas red */
+  }
+  
+  .meal-table {
+    margin-bottom: 30px;
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .meal-table h2 {
+    margin-bottom: 10px;
+    color: #006400; /* Dark Christmas green */
+  }
+  
+  .meal-table h4 {
+    margin-bottom: 10px;
+    color: #006400; /* Dark Christmas green */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #ffd700; /* Gold header background */
+    color: #006400; /* Dark green text */
+  }
+  
+  td {
+    background-color: #fdf5e6; /* Light cream */
+  }
+  
+  tr:nth-child(even) td {
+    background-color: #f8f8ff; /* Slight snowy white */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #ff0000; /* Christmas red for labels */
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fdf5e6; /* Light cream */
+  }
+  
+  button[type="submit"],
+  button[type="login"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #ff0000; /* Christmas red */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  button[type="submit"]:hover,
+  button[type="login"]:hover {
+    background-color: #b22222; /* Darker Christmas red */
+  }
+  
+  #mealInputs .meal-group {
+    margin-bottom: 20px;
+  }
+  
+  #mealInputs label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #006400; /* Dark Christmas green */
+  }
+  
+  #mealInputs input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fdf5e6; /* Light cream */
+  }

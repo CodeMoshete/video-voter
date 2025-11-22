@@ -21,7 +21,7 @@ function saveManifestJson(jsonObj) {
 exports.setAttendeeData = function setAttendeeData(attendeeName, entreeData) {
   const foodManifest = loadFoodManifest();
   const manifestEntry = {
-    name: attendeeName,
+    name: attendeeName.trim(),
     entrees: entreeData
   };
 

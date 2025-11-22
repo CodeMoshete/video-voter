@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fffbe6; /* Warm sunny beige */
+  color: #333;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #d62828; /* Watermelon red */
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ef476f; /* Vibrant berry pink */
+}
+
+.meal-table {
+  margin-bottom: 30px;
+  background-color: #ffffff; /* Clean white for plates/tablecloth */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.meal-table h2 {
+  margin-bottom: 10px;
+  color: #457b9d; /* Cool picnic sky blue */
+}
+
+.meal-table h4 {
+  margin-bottom: 10px;
+  color: #457b9d; /* Same soft blue */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #fcbf49; /* Lemonade yellow */
+  color: #264653; /* Deep blue-green contrast */
+}
+
+td {
+  background-color: #fffaf0; /* Light natural cream */
+}
+
+tr:nth-child(even) td {
+  background-color: #fcebd5; /* Pale peachy picnic tone */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #d62828; /* Watermelon red for energy */
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fffaf0; /* Soft off-white */
+}
+
+button[type="submit"],
+button[type="login"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #f77f00; /* Bright orange like a sunny napkin */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+button[type="submit"]:hover,
+button[type="login"]:hover {
+  background-color: #d62828; /* Deep red for contrast on hover */
+}
+
+#mealInputs .meal-group {
+  margin-bottom: 20px;
+}
+
+#mealInputs label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #2a9d8f; /* Fresh minty green */
+}
+
+#mealInputs input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fffaf0; /* Same soft cream as other inputs */
+}
