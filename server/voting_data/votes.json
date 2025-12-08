@@ -1,217 +1,158 @@
 {
-  "01 To show at Thanksgiving 2023 TG23": {
+  "Ben's heroic sacrifice TG25": {
     "votes": [
       {
-        "userName": "Ryan",
+        "userName": "Mr.POTAYTOakafletcher",
+        "vote": 4
+      },
+      {
+        "userName": "Sam",
+        "vote": 3
+      },
+      {
+        "userName": "Patty Cakes",
         "vote": 1
       },
       {
-        "userName": "Ashmo",
-        "vote": 3
-      },
-      {
-        "userName": "Troy",
-        "vote": 3
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 3
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 4
-      },
-      {
-        "userName": "yyysman",
-        "vote": 3
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 3
-      },
-      {
         "userName": "Josh",
+        "vote": 3
+      },
+      {
+        "userName": "Kevin",
         "vote": 3
       }
     ],
-    "overallScore": 2.875
+    "overallScore": 2.8
   },
-  "02 Josh's low altitude parking job TG23": {
+  "Don't get killed by Lux TG25": {
     "votes": [
       {
-        "userName": "Fletcher and JJ",
+        "userName": "Sam",
+        "vote": 5
+      },
+      {
+        "userName": "Patty Cakes",
         "vote": 3
       },
       {
-        "userName": "Mark",
-        "vote": 5
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 5
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 2
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "yyysman",
+        "userName": "Mr.POTAYTOakafletcher",
         "vote": 4
       },
       {
         "userName": "Josh",
+        "vote": 4
+      },
+      {
+        "userName": "Kevin",
         "vote": 4
       }
     ],
     "overallScore": 4
   },
-  "03 Sam's Big Show TG23": {
+  "Epic Backdoor TG25": {
     "votes": [
       {
+        "userName": "Sam",
+        "vote": 4
+      },
+      {
+        "userName": "Mr.POTAYTOakafletcher",
+        "vote": 5
+      },
+      {
         "userName": "Josh",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
         "vote": 5
       },
       {
-        "userName": "Ashmo",
-        "vote": 5
+        "userName": "Patty Cakes",
+        "vote": 3
       },
       {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 5
-      },
-      {
-        "userName": "yyysman",
-        "vote": 4
-      },
-      {
-        "userName": "Mark",
+        "userName": "Kevin",
         "vote": 3
       }
     ],
-    "overallScore": 4.375
+    "overallScore": 4
   },
-  "04 Josh bounces back TG23": {
+  "Extreme Banshee Fail TG25": {
     "votes": [
       {
-        "userName": "DaniTY",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
+        "userName": "Sam",
         "vote": 5
       },
       {
-        "userName": "Troy",
-        "vote": 3
+        "userName": "Mr.POTAYTOakafletcher",
+        "vote": 5
       },
       {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      },
-      {
-        "userName": "yyysman",
-        "vote": 3
-      },
-      {
-        "userName": "Fletcher and JJ",
+        "userName": "Kevin",
         "vote": 4
       },
       {
         "userName": "Josh",
-        "vote": 2
+        "vote": 5
+      },
+      {
+        "userName": "Patty Cakes",
+        "vote": 4
       }
     ],
-    "overallScore": 3.625
+    "overallScore": 4.6
   },
-  "05 Wiseman confirms the kill TG23": {
+  "Here comes Aatrox in Control TG25": {
     "votes": [
       {
-        "userName": "Mark",
-        "vote": 4
-      },
-      {
-        "userName": "Troy",
-        "vote": 4
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 4
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
+        "userName": "Mr.POTAYTOakafletcher",
         "vote": 3
       },
       {
-        "userName": "yyysman",
+        "userName": "Patty Cakes",
         "vote": 4
       },
       {
         "userName": "Josh",
-        "vote": 3
-      }
-    ],
-    "overallScore": 3.7777777777777777
-  },
-  "06 Josh's low altitude parking job 2 TG23": {
-    "votes": [
-      {
-        "userName": "DaniTY",
         "vote": 5
       },
       {
-        "userName": "Troy",
+        "userName": "Sam",
+        "vote": 5
+      },
+      {
+        "userName": "Kevin",
         "vote": 4
+      }
+    ],
+    "overallScore": 4.2
+  },
+  "It can open doors! TG25": {
+    "votes": [
+      {
+        "userName": "Sam",
+        "vote": 5
       },
       {
-        "userName": "Ashmo",
-        "vote": 3
+        "userName": "Mr.POTAYTOakafletcher",
+        "vote": 5
       },
       {
-        "userName": "Fletcher and JJ",
-        "vote": 4
+        "userName": "Patty Cakes",
+        "vote": 5
       },
       {
-        "userName": "yyysman",
+        "userName": "Josh",
+        "vote": 5
+      },
+      {
+        "userName": "Kevin",
+        "vote": 5
+      }
+    ],
+    "overallScore": 5
+  },
+  "Josh stares death in the eye TG25": {
+    "votes": [
+      {
+        "userName": "Mr.POTAYTOakafletcher",
         "vote": 5
       },
       {
@@ -219,517 +160,25 @@
         "vote": 3
       },
       {
-        "userName": "Kmobo",
-        "vote": 5
-      },
-      {
-        "userName": "Mark",
-        "vote": 4
-      }
-    ],
-    "overallScore": 4.125
-  },
-  "07 Ben's Embarrassing Driving Accident TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 2
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 4
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 3
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 4
-      },
-      {
-        "userName": "Mark",
-        "vote": 3
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "yyysman",
-        "vote": 3
-      },
-      {
-        "userName": "Ryan",
+        "userName": "Kevin",
         "vote": 3
       }
     ],
-    "overallScore": 3.5555555555555554
+    "overallScore": 3.6666666666666665
   },
-  "08 Go get Sam TG23": {
+  "Josh's Honorable Last Stand TG25": {
     "votes": [
       {
-        "userName": "Josh",
-        "vote": 2
-      },
-      {
-        "userName": "Kmobo",
+        "userName": "Sam",
         "vote": 4
       },
       {
-        "userName": "Troy",
+        "userName": "Mr.POTAYTOakafletcher",
+        "vote": 4
+      },
+      {
+        "userName": "Kevin",
         "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Mark",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 3
-      },
-      {
-        "userName": "yyysman",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
-        "vote": 3
-      }
-    ],
-    "overallScore": 3.7777777777777777
-  },
-  "09 Josh gets a handy assist TG23": {
-    "votes": [
-      {
-        "userName": "Ashmo",
-        "vote": 2
-      },
-      {
-        "userName": "yyysman",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 2
-      },
-      {
-        "userName": "Troy",
-        "vote": 2
-      },
-      {
-        "userName": "Ryan",
-        "vote": 3
-      },
-      {
-        "userName": "Josh",
-        "vote": 2
-      },
-      {
-        "userName": "Mark",
-        "vote": 2
-      }
-    ],
-    "overallScore": 2.6666666666666665
-  },
-  "10 Kayla's skill showcase TG23": {
-    "votes": [
-      {
-        "userName": "Kmobo",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
-        "vote": 3
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 4
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 2
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 3
-      },
-      {
-        "userName": "Josh",
-        "vote": 3
-      },
-      {
-        "userName": "yyysman",
-        "vote": 3
-      },
-      {
-        "userName": "Mark",
-        "vote": 3
-      }
-    ],
-    "overallScore": 3.3333333333333335
-  },
-  "11 Josh's low altitude parking job 3 TG23": {
-    "votes": [
-      {
-        "userName": "Ashmo",
-        "vote": 3
-      },
-      {
-        "userName": "Josh",
-        "vote": 3
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 4
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "Mark",
-        "vote": 3
-      }
-    ],
-    "overallScore": 3.7777777777777777
-  },
-  "12 Ryan's Ghost Buster TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 4
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Troy",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "Mark",
-        "vote": 4
-      }
-    ],
-    "overallScore": 4.125
-  },
-  "13 A sad tragedy TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 5
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 3
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "Mark",
-        "vote": 3
-      }
-    ],
-    "overallScore": 4.333333333333333
-  },
-  "14 Sam's warthog panic shuffle TG23": {
-    "votes": [
-      {
-        "userName": "Troy",
-        "vote": 4
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 2
-      },
-      {
-        "userName": "yyysman",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 3
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "Josh",
-        "vote": 2
-      },
-      {
-        "userName": "Ryan",
-        "vote": 2
-      },
-      {
-        "userName": "Mark",
-        "vote": 4
-      }
-    ],
-    "overallScore": 3.111111111111111
-  },
-  "15 Josh gets piledrived TG23": {
-    "votes": [
-      {
-        "userName": "Ashmo",
-        "vote": 3
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 3
-      },
-      {
-        "userName": "Josh",
-        "vote": 2
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "Mark",
-        "vote": 3
-      }
-    ],
-    "overallScore": 3.2857142857142856
-  },
-  "16 Ben's Embarrassing Driving Accident 2 TG23": {
-    "votes": [
-      {
-        "userName": "yyysman",
-        "vote": 3
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Josh",
-        "vote": 3
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 4
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 4
-      },
-      {
-        "userName": "Mark",
-        "vote": 3
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      }
-    ],
-    "overallScore": 3.888888888888889
-  },
-  "17 Josh's low altitude parking job 4 TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 2
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 3
-      },
-      {
-        "userName": "Troy",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 4
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      },
-      {
-        "userName": "Mark",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 5
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      }
-    ],
-    "overallScore": 4.111111111111111
-  },
-  "18 Wise Man cracks under the pressure TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 4
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 5
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 3
-      }
-    ],
-    "overallScore": 4.166666666666667
-  },
-  "19 Josh locks in a death TG23": {
-    "votes": [
-      {
-        "userName": "Ryan",
-        "vote": 5
-      },
-      {
-        "userName": "Mark",
-        "vote": 5
-      },
-      {
-        "userName": "Troy",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 4
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 3
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 4
-      },
-      {
-        "userName": "yyysman",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 4
       },
       {
         "userName": "Josh",
@@ -738,166 +187,77 @@
     ],
     "overallScore": 4
   },
-  "20 Ryan's makes a Pancake TG23": {
+  "Kyle catches a dropship TG25": {
     "votes": [
       {
-        "userName": "Ashmo",
-        "vote": 4
+        "userName": "Sam",
+        "vote": 5
+      },
+      {
+        "userName": "Mr.POTAYTOakafletcher",
+        "vote": 5
+      },
+      {
+        "userName": "Kevin",
+        "vote": 5
       },
       {
         "userName": "Josh",
-        "vote": 5
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 5
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Troy",
-        "vote": 3
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "Mark",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      }
-    ],
-    "overallScore": 4.444444444444445
-  },
-  "21 Sam passes his driver's test TG23": {
-    "votes": [
-      {
-        "userName": "Mark",
-        "vote": 3
-      },
-      {
-        "userName": "Josh",
-        "vote": 4
-      },
-      {
-        "userName": "Troy",
-        "vote": 2
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 5
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      },
-      {
-        "userName": "Fletcher and JJ",
         "vote": 4
       }
     ],
-    "overallScore": 4
+    "overallScore": 4.75
   },
-  "22 Josh's low altitude parking job 5 TG23": {
+  "Kyle gets escorted out of the room TG25": {
     "votes": [
       {
-        "userName": "Troy",
+        "userName": "Mr.POTAYTOakafletcher",
         "vote": 5
       },
       {
-        "userName": "Kmobo",
-        "vote": 4
+        "userName": "Sam",
+        "vote": 5
       },
       {
-        "userName": "Fletcher and JJ",
-        "vote": 4
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 3
+        "userName": "Kevin",
+        "vote": 5
       },
       {
         "userName": "Josh",
-        "vote": 3
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      },
-      {
-        "userName": "yyysman",
         "vote": 5
       }
     ],
-    "overallScore": 4.125
+    "overallScore": 5
   },
-  "23 Josh's low altitude parking job 6 TG23": {
+  "Last Second Laser TG25": {
     "votes": [
       {
-        "userName": "Mark",
+        "userName": "Josh",
         "vote": 3
       },
       {
-        "userName": "Fletcher and JJ",
+        "userName": "Mr.POTAYTOakafletcher",
         "vote": 5
       },
       {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "DaniTY",
+        "userName": "Sam",
         "vote": 4
       },
       {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 4
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "Josh",
+        "userName": "Kevin",
         "vote": 3
       }
     ],
-    "overallScore": 4.125
+    "overallScore": 3.75
   },
-  "24 Josh's low altitude parking job 7 TG23": {
+  "Midair Banshee Steal TG25": {
     "votes": [
       {
-        "userName": "Troy",
+        "userName": "Sam",
+        "vote": 5
+      },
+      {
+        "userName": "Mr.POTAYTOakafletcher",
         "vote": 5
       },
       {
@@ -905,1142 +265,94 @@
         "vote": 5
       },
       {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 2
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      }
-    ],
-    "overallScore": 4.125
-  },
-  "25 Top Gun: Maverick 2: Wise Man's Wrath TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 5
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 3
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 5
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Troy",
+        "userName": "Kevin",
         "vote": 5
       }
     ],
-    "overallScore": 4.5
+    "overallScore": 5
   },
-  "26 Lieutenant's Last Stand TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 2
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 2
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 4
-      }
-    ],
-    "overallScore": 3.3333333333333335
-  },
-  "27 BSA Blunder Circus TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 5
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 4
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      }
-    ],
-    "overallScore": 4.571428571428571
-  },
-  "28 BSA Roadblock TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 1
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 2
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 2
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 2
-      },
-      {
-        "userName": "yyysman",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
-        "vote": 3
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      }
-    ],
-    "overallScore": 2.75
-  },
-  "29 Sam's Friendly Splattering TG23": {
-    "votes": [
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "yyysman",
-        "vote": 4
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 2
-      },
-      {
-        "userName": "Josh",
-        "vote": 4
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 1
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      }
-    ],
-    "overallScore": 3.2857142857142856
-  },
-  "30 Josh's Teamplay TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 5
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 3
-      },
-      {
-        "userName": "yyysman",
-        "vote": 4
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      }
-    ],
-    "overallScore": 4.5
-  },
-  "31 Drew steals BSA's glory TG23": {
-    "votes": [
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 4
-      },
-      {
-        "userName": "Josh",
-        "vote": 3
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 3
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 4
-      }
-    ],
-    "overallScore": 4.25
-  },
-  "32 Josh's unmatched trigger restraint TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 2
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 2
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      }
-    ],
-    "overallScore": 3.7142857142857144
-  },
-  "33 Ryan's Low Altitude Walking Job TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 3
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      }
-    ],
-    "overallScore": 4.25
-  },
-  "34 The Young plunge TG23": {
+  "OH GOB NOT THE BEES TG25": {
     "votes": [
       {
         "userName": "Josh",
         "vote": 4
       },
       {
-        "userName": "Troy",
+        "userName": "Sam",
         "vote": 5
       },
       {
-        "userName": "Ashmo",
-        "vote": 2
-      },
-      {
-        "userName": "yyysman",
+        "userName": "Mr.POTAYTOakafletcher",
         "vote": 5
       },
       {
-        "userName": "Fletcher and JJ",
-        "vote": 3
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 3
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      }
-    ],
-    "overallScore": 3.7142857142857144
-  },
-  "35 Lt. out of the frying pan... TG23": {
-    "votes": [
-      {
-        "userName": "Kmobo",
-        "vote": 4
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 2
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Josh",
-        "vote": 2
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      }
-    ],
-    "overallScore": 4
-  },
-  "36 Ben's Embarrassing Driving Accident 3 TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 1
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 4
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 3
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 3
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "yyysman",
-        "vote": 3
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      }
-    ],
-    "overallScore": 3.25
-  },
-  "37 Josh fails his driver test TG23": {
-    "votes": [
-      {
-        "userName": "Ashmo",
-        "vote": 2
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Josh",
-        "vote": 3
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 3
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      }
-    ],
-    "overallScore": 3.7142857142857144
-  },
-  "38 Ryan's Embarrassing Driving Accident TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 4
-      },
-      {
-        "userName": "Troy",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 4
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 3
-      },
-      {
-        "userName": "yyysman",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
-        "vote": 3
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 3
-      }
-    ],
-    "overallScore": 3.5714285714285716
-  },
-  "39 Terrible Hijack TG23": {
-    "votes": [
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Troy",
-        "vote": 4
-      },
-      {
-        "userName": "Josh",
-        "vote": 4
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 3
-      }
-    ],
-    "overallScore": 4.125
-  },
-  "40 Josh's Low Altitude Walking Job TG23": {
-    "votes": [
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 3
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 5
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 4
-      },
-      {
-        "userName": "Josh",
-        "vote": 3
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      }
-    ],
-    "overallScore": 4.25
-  },
-  "41 Josh's death pit claims more victims TG23": {
-    "votes": [
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Josh",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 3
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      }
-    ],
-    "overallScore": 4.142857142857143
-  },
-  "42 Smash's Stealthy Sack Punch TG23": {
-    "votes": [
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "Josh",
-        "vote": 3
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 2
-      }
-    ],
-    "overallScore": 4.125
-  },
-  "43 Ben's Embarrassing Vehicle Steam TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 3
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "Ryan",
-        "vote": 3
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 1
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      }
-    ],
-    "overallScore": 3.4285714285714284
-  },
-  "44 Pro flag run TG23": {
-    "votes": [
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 5
-      },
-      {
-        "userName": "Josh",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      },
-      {
-        "userName": "yyysman",
-        "vote": 4
-      }
-    ],
-    "overallScore": 4.428571428571429
-  },
-  "45 Josh's Low Altitude Walking Job 2 TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 4
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 4
-      }
-    ],
-    "overallScore": 4.571428571428571
-  },
-  "46 BSA Meets a Fiery Fate TG23": {
-    "votes": [
-      {
-        "userName": "DaniTY",
-        "vote": 4
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 4
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "Josh",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      },
-      {
-        "userName": "yyysman",
-        "vote": 3
-      }
-    ],
-    "overallScore": 4
-  },
-  "47 Josh's Low Altitude Walking Job 3 TG23": {
-    "votes": [
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 5
-      },
-      {
-        "userName": "Josh",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 5
-      },
-      {
-        "userName": "yyysman",
+        "userName": "Kevin",
         "vote": 5
       }
     ],
     "overallScore": 4.75
   },
-  "48 Catapult TG23": {
+  "Sacrifice for Sean TG25": {
     "votes": [
       {
-        "userName": "Troy",
-        "vote": 2
+        "userName": "Mr.POTAYTOakafletcher",
+        "vote": 5
       },
       {
-        "userName": "Fletcher and JJ",
-        "vote": 1
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 2
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 3
-      },
-      {
-        "userName": "Ryan",
-        "vote": 3
+        "userName": "Sam",
+        "vote": 4
       },
       {
         "userName": "Josh",
-        "vote": 3
+        "vote": 4
       },
       {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "yyysman",
+        "userName": "Kevin",
         "vote": 4
       }
     ],
-    "overallScore": 2.625
+    "overallScore": 4.25
   },
-  "49 Josh's Low Altitude Walking Job 4 TG23": {
+  "TG25 An enemy corrects Josh's inverted parking job": {
     "votes": [
       {
-        "userName": "Troy",
+        "userName": "Mr.POTAYTOakafletcher",
+        "vote": 5
+      },
+      {
+        "userName": "Sam",
+        "vote": 5
+      },
+      {
+        "userName": "Kevin",
         "vote": 5
       },
       {
         "userName": "Josh",
-        "vote": 3
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 2
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 3
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
         "vote": 4
       }
     ],
-    "overallScore": 3.857142857142857
+    "overallScore": 4.75
   },
-  "50 Josh's Low Altitude Walking Job 5? TG23": {
+  "TG25 Kyle's Friendly Fire Incident": {
     "votes": [
       {
-        "userName": "Troy",
+        "userName": "Sam",
         "vote": 5
       },
       {
-        "userName": "DaniTY",
-        "vote": 1
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 3
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 3
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      },
-      {
-        "userName": "Josh",
-        "vote": 3
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 4
-      }
-    ],
-    "overallScore": 3.4285714285714284
-  },
-  "51 Honorab flag attempt TG23": {
-    "votes": [
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 3
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 4
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      },
-      {
-        "userName": "Josh",
-        "vote": 2
-      },
-      {
-        "userName": "Troy",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 5
-      }
-    ],
-    "overallScore": 3.857142857142857
-  },
-  "52 Josh's High Altitude Vehicle Steal TG23": {
-    "votes": [
-      {
-        "userName": "DaniTY",
-        "vote": 5
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 3
-      },
-      {
-        "userName": "Josh",
-        "vote": 3
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      }
-    ],
-    "overallScore": 4
-  },
-  "53 Lieutenant loses his driver's license TG23": {
-    "votes": [
-      {
-        "userName": "DaniTY",
-        "vote": 5
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 5
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
+        "userName": "Mr.POTAYTOakafletcher",
         "vote": 5
       },
       {
         "userName": "Josh",
         "vote": 4
+      },
+      {
+        "userName": "Kevin",
+        "vote": 4
       }
     ],
-    "overallScore": 4.857142857142857
-  },
-  "54 Lieutenant's hero's death TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 4
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 5
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 4
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      }
-    ],
-    "overallScore": 4.375
-  },
-  "55 The Big Game Highlights 5/26 TG23": {
-    "votes": [
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 3
-      },
-      {
-        "userName": "Josh",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 4
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 5
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      }
-    ],
-    "overallScore": 4.571428571428571
-  },
-  "56 Wiseman's Driving Escapade TG23": {
-    "votes": [
-      {
-        "userName": "Josh",
-        "vote": 5
-      },
-      {
-        "userName": "Ashmo",
-        "vote": 5
-      },
-      {
-        "userName": "DaniTY",
-        "vote": 5
-      },
-      {
-        "userName": "Ryan",
-        "vote": 5
-      },
-      {
-        "userName": "Kmobo",
-        "vote": 5
-      },
-      {
-        "userName": "Fletcher and JJ",
-        "vote": 5
-      },
-      {
-        "userName": "Troy",
-        "vote": 5
-      },
-      {
-        "userName": "yyysman",
-        "vote": 5
-      }
-    ],
-    "overallScore": 5
+    "overallScore": 4.5
   }
 }

@@ -99,7 +99,7 @@ exports.getVideoManifest = function getVideoManifest() {
 exports.generateManifest = async function generateManifest() {
   // https://docs.medal.tv/player.html
   // https://docs.medal.tv/api#generate-an-api-key
-  const searchUrl = 'https://developers.medal.tv/v1/search?userId=SeabassMcGills&text=TG23&limit=100';
+  const searchUrl = 'https://developers.medal.tv/v1/search?userId=SeabassMcGills&text=TG25&limit=100';
   const headers = {
     Authorization: 'pub_ZvKksrJkRA5NDy7wkjpTnCRPVwdzboY1'
   };

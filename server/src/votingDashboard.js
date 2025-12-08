@@ -38,8 +38,8 @@ exports.showDashboard = async function showDashboard(serverIp, clientIp) {
     currentVideoContent += '  <div id="inputContainer" class="inputContainer">';
     currentVideoContent += '    <div>';
     currentVideoContent += '      <span class="border2">Your Vote:</span></br>';
-    currentVideoContent += '      <span class="border4">1: Not shameful</span></br>';
-    currentVideoContent += '      <span class="border4">5: Extremely shameful</span></br>';
+    currentVideoContent += '      <span class="border4">1: Not cool</span></br>';
+    currentVideoContent += '      <span class="border4">5: Extremely cool</span></br>';
     currentVideoContent += '      <button class="voteBtn" onclick="submitVote(1)">1</button>';
     currentVideoContent += '      <button class="voteBtn" onclick="submitVote(2)">2</button>';
     currentVideoContent += '      <button class="voteBtn" onclick="submitVote(3)">3</button>';
